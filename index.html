@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
 		<title>Après Martine à la ferme Irving à la ferme!</title>
 	</head>
 	<body>
 		<div id="bloc_page">
 		<!--HERO-->
+			<!-- NAV-RESPONSIVE -->
+			<div id="nav-responsive">
+				<i class="fa fa-bars fa-3x"></i>
+				<img src="images/raven_logo_no_text.png" alt="osef">
+				<i class="fa fa-coffee fa-3x"></i>
+			</div>
 			<div id="hero">
-				<div id="bouton">shop coffee</div><i class="fa fa-chevron-down fa-3x"></i>
+				<div id="bouton">shop coffee</div><i class="fa fa-chevron-down fa-3x hero"></i>
 			</div>
 			<!--NAV-BLACK-->
 			<nav id="nav-black">
@@ -21,32 +28,141 @@
 					<li><a href="http://irvingfarm.com/cart">cart (0)</a></li>
 				</ul>
 			</nav>
-			<!--NAV-BARRE-->
+			<!--FIXED-BAR-->
 			<nav id="fixed-bar" class="align-inline">
 				<div id="container">
 					<div class="group">shop</div>
 					<div class="group">location</div>
-					<div class="group">education</div> <!--upercase-->
+					<div class="group">education</div>
 					<img src="images/raven_logo.png"/>
 					<div class="group">wholesale</div>
 					<div class="group">about</div>
 				</div>
 			</nav>
-
-			<div id="container">
-				<ul>
-					<li>blabla</li>
-					<li>bouuuh</li>
-					<li></li>
-				</ul>
+			<!--div  3 images-->
+			<div id="centre">
+				<div class="imageText">
+					<img src="images/home-triptych-image-left.jpg" alt="">
+					<p>our cafes</p>
+				</div>
+				<div class="imageText midle">
+					<img src="images/home-triptych-image-center.jpg" alt="">
+					<p>origin stories</p>
+				</div>
+				<div class="imageText">
+					<img src="images/home-triptych-image-right.jpg" alt="">
+					<p>sign up for classes</p>
+				</div>
 			</div>
+
+			<!--DIV MOUNTAIN-->
 			<div id="mountain">
-				<article> <!-- border top et bottom-->
-					
+				<article class="article position" >
+					<h1>capucas, honduras</h1>
+					<p>Located in the dry southwestern hills of Honduras, Las Capucas is the model of a well run Cooperative. Their official name, Cooperativa Cafetelera Capucas Limitada or COCAFCAL, is quite a mouthful, so we decided to pay homage to the whole community by calling this coffee simply "Capucas". The cooperative, run by Omar Rodriguez, utilizes modern washing and drying facilities to produce this fantastic coffee.
+					</p>
+					<p>SHOP THIS COFFEE</p>
 				</article> 
-				
 			</div>
-
+			<!--WHITE-->
+			<div id="white">
+				<div class="article">
+					<h1>Wolesale</h1>
+					<p> We supply our wholesale customers with only the highest quality coffees, carefully sourced and selected. We then support those coffees with expert training, and as much information as we can to allow you to deliver the perfect cup.
+					</p>
+					<p>LEARN MORE</p>
+				</div>
+				<div id="colgate">
+					
+				</div>
+			</div>
+			<!--DIV CONTACT-->
+			<div id="contact">
+					<div id="one">
+						<form action="post" action"traitement.php">			
+								<input type="text" name="mail"> <i id="mail" class="fa fa-envelope-o fa-2x"></i>
+						</form>
+					</div>
+					<div id="two">
+						<p>join our newsletter & receive <br></br><strong>10% off</strong> your first order!</p>
+					</div>
+			</div>
+			<!-- DIV FOOTER -->
+			<footer>
+				<div id="piaf">
+					<img src="images/raven_logo_no_text.png" alt="logo irving farm bird">
+				</div>
+				<div id="footer">
+					<div class="footer">
+						<p>coffee</p>
+						<ul>
+							<li>single origin</li>
+							<li>blends</li>
+							<li>espresso</li>
+							<li>organic</li>
+							<li>decaf</li>
+						</ul>
+					</div>
+					<div class="footer">
+						<p>products</p>
+						<ul>
+							<li>subscriptions</li>
+							<li>gifts & gear</li>
+							<li>classes</li>
+						</ul>
+					</div>
+					<div class="footer">
+						<p>locations</p>
+						<ul>
+							<li>gramercy</li>
+							<li>grand central</li>
+							<li>lower east side</li>
+							<li>upper west side</li>
+							<li>fulton center</li>
+							<li>millerton, ny</li>
+							<li>the loft</li>
+							<li>the roastery</li>
+						</ul>
+					</div>
+					<div class="footer">
+					 	<p>about</p>
+					 	<ul>
+					 		<li>our story</li>
+					 		<li>wholesale</li>
+					 		<li>press</li>
+					 		<li>blog</li>
+					 	</ul>
+					</div>
+					<div class="footer">
+					 	<p>help</p>
+					 	<ul>
+					 		<li>customer</li>
+					 		<li>manage account</li>
+					 		<li>track order</li>
+					 		<li>shipping</li>
+					 		<li>contact</li>
+					 	</ul>
+					</div>
+					<div class="footer">
+					 	<p>follow us</p>
+					 	<ul>
+					 		<li> <i class="fa fa-facebook fa-3x"></i></li>
+					 		<li> <i class="fa fa-twitter fa-3x"></i></li>
+					 		<li> <i class="fa fa-google-plus fa-3x"></i></li>
+					 		<li> <i class="fa fa-instagram fa-3x"></i></li>
+					 	</ul>
+					</div>
+				</div>
+			</footer>
+			<hr>
+			<div>
+				<div>
+					<p>© 2016 IRVING FARM COFFEE ROASTERS.</p>
+				</div>
+				<div>
+					<p>MADE BY V + V</p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
